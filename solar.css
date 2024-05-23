@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Star Trek TNG-Title Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: 'MyCustomFont', StarTrekTNGTitle, Regular;
+    font-size: 70px;
+    color: rgb(18, 0, 255)
+}
